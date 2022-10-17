@@ -7,7 +7,6 @@
   --secondary-color-grayish: hsl(228, 12%, 48%);
   --secondary-color-White: hsl(0, 0%, 100%);
 }
-
 html {
   font-family: "Inter", sans-serif;
   font-weight: 800;
@@ -138,3 +137,4 @@ body {
 .attribution a:hover {
   color: var(--secondary-color-Very);
 }
+
