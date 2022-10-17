@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@400;500;600;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:wght@400;500;600;700&family=Work+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  --primary-color-cyan: hsl(158, 36%, 37%);
+  --primary-color-cream: hsl(30, 38%, 92%);
+  --secondary-color-Very: hsl(212, 21%, 14%);
+  --secondary-color-grayish: hsl(228, 12%, 48%);
+  --secondary-color-White: hsl(0, 0%, 100%);
+}
+
+html {
+  font-family: "Inter", sans-serif;
+  font-weight: 800;
+}
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: var(--primary-color-cream);
+}
+.card {
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.container {
+  width: 30rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  background-color: var(--secondary-color-White);
+  overflow: hidden;
+}
+.container__info {
+  padding: 0 1rem;
+  width: 50%;
+
+  font-display: swap;
+  margin: 1rem 0;
+}
+.container__title {
+  color: var(--secondary-color-grayish);
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.3rem;
+  margin: 0;
+}
+.container__img {
+  width: 50%;
+}
+.container__img img {
+  width: 100%;
+  height: 100%;
+}
+.container__data {
+  font-size: 1.6rem;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+}
+.container__description {
+  line-height: 1.3rem;
+  color: var(--secondary-color-grayish);
+  opacity: 0.8;
+}
+.container__price {
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
+.price__pri {
+  color: var(--primary-color-cyan);
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+}
+.price__sec {
+  color: var(--secondary-color-grayish);
+  font-size: 0.7rem;
+  text-decoration-line: line-through;
+  opacity: 0.6;
+}
+.container__cart {
+  display: flex;
+  padding: 0.2rem;
+  column-gap: 0.6rem;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+  color: var(--secondary-color-White);
+  background-color: var(--primary-color-cyan);
+}
+.container__cart:hover {
+  background-color: hsl(158, 36%, 20%);
+}
+
+.attribution {
+  margin-top: 1rem;
+  font-size: 0.8rem;
+  color: var(--secondary-color-grayish);
+}
+.attribution a {
+  text-decoration: none;
+  color: var(--primary-color-cyan);
+}
+.attribution a:hover {
+  color: var(--secondary-color-Very);
+}
