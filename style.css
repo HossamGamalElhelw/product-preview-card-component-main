@@ -11,12 +11,12 @@
 html {
   font-family: "Inter", sans-serif;
   font-weight: 800;
+  font-size: 16px;
 }
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-size: 14px;
   background-color: var(--primary-color-cream);
 }
 .card {
@@ -29,9 +29,29 @@ body {
   width: 30rem;
   border-radius: 1rem;
   display: flex;
+  flex-direction: row;
   justify-content: center;
   background-color: var(--secondary-color-White);
   overflow: hidden;
+}
+@media screen and (max-width: 760px) {
+  html {
+    font-size: 13px;
+  }
+  .card {
+    margin-top: 4rem;
+  }
+  .container {
+    flex-direction: column;
+    width: 20rem;
+  }
+  .attribution {
+    width: 15rem;
+    position: relative;
+    bottom: 0;
+    left: 7rem;
+    line-height: 1.1rem;
+  }
 }
 .container__info {
   padding: 0 1rem;
@@ -39,6 +59,12 @@ body {
 
   font-display: swap;
   margin: 1rem 0;
+}
+@media screen and (max-width: 760px) {
+  .container__info {
+    width: 18rem;
+    height: 24rem;
+  }
 }
 .container__title {
   color: var(--secondary-color-grayish);
@@ -49,6 +75,12 @@ body {
 }
 .container__img {
   width: 50%;
+}
+@media screen and (max-width: 760px) {
+  .container__img {
+    width: 100%;
+    height: 15rem;
+  }
 }
 .container__img img {
   width: 100%;
