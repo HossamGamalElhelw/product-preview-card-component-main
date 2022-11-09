@@ -46,9 +46,7 @@ body {
   }
   .attribution {
     width: 15rem;
-    position: relative;
-    bottom: 0;
-    left: 7rem;
+    bottom: 6% !important;
     line-height: 1.1rem;
   }
 }
