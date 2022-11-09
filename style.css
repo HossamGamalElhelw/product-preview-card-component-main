@@ -129,6 +129,7 @@ body {
   margin-top: 1rem;
   font-size: 0.8rem;
   color: var(--secondary-color-grayish);
+  cursor:pointer;
 }
 .attribution a {
   text-decoration: none;
