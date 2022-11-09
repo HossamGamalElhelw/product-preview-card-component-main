@@ -127,7 +127,8 @@ body {
 }
 
 .attribution {
-  margin-top: 1rem;
+  position: absolute;
+  bottom: 6rem;
   font-size: 0.8rem;
   color: var(--secondary-color-grayish);
 }
@@ -138,4 +139,5 @@ body {
 .attribution a:hover {
   color: var(--secondary-color-Very);
 }
+
 
