@@ -120,6 +120,7 @@ body {
   border-radius: 1rem;
   color: var(--secondary-color-White);
   background-color: var(--primary-color-cyan);
+  cursor: pointer;
 }
 .container__cart:hover {
   background-color: hsl(158, 36%, 20%);
@@ -129,7 +130,6 @@ body {
   margin-top: 1rem;
   font-size: 0.8rem;
   color: var(--secondary-color-grayish);
-  cursor:pointer;
 }
 .attribution a {
   text-decoration: none;
